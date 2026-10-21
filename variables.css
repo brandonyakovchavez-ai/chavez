@@ -1,0 +1,27 @@
+:root{
+    --color1:pink;
+    --color2:rgb(173, 173, 216);
+
+     --fuente1:cambria;
+   --espacio1:40px;
+}
+body{
+    background-color:var(--color2);
+}
+h1,h2{
+    color:var(--color1);
+    font-family:var(--fuente1);
+    text-align: center;
+    margin:var(espacio1);
+    padding: var(--espacio1);
+}
+
+div{
+    border: 10px solid orange;
+    width:50% ;
+
+}
+ button{
+color:var(--color1);
+font-family:var(--fuente1);
+ }

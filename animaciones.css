@@ -1,0 +1,11 @@
+body{
+   animation: colores 6s ease-in-out 2s infinite alternate;
+}
+
+@keyframes colores{
+   0%{background-color: rgb(199, 241, 241); color:orangered;}
+   50% {background-color:greenyellow; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+   100%{background-color:  orange;}
+   }    
+
+ 
